@@ -1,0 +1,43 @@
+!Package
+Id: 9bc065ac-955f-4d93-80bf-7159d8a3ab1a
+SerializedVersion: {Assets: 0.0.4}
+Meta:
+    Name: DearXenko
+    Version: 1.0.0.0
+    Authors: []
+    Owners: []
+    RootNamespace: DearXenko
+    Dependencies:
+        -   Name: Xenko
+            Version: 3.0.0.6
+            RootAssets: []
+LocalDependencies: []
+Profiles:
+    -   Name: Shared
+        Platform: Shared
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Shared
+            -   Path: DearXenko.Game/Effects
+        ResourceFolders:
+            - Resources
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: b5c78649-a420-4417-aae0-5dcbd9d01acb
+                Location: DearXenko.Game/DearXenko.Game.csproj
+                Type: Library
+    -   Name: Windows
+        Platform: Windows
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Windows
+        ResourceFolders: []
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: 837a189b-347e-4c6d-8768-04bc7535c554
+                Location: DearXenko.Windows/DearXenko.Windows.csproj
+                Type: Executable
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets: []

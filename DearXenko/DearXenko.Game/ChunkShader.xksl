@@ -1,0 +1,20 @@
+﻿shader ChunkShader : ComputeColor, ShadingBase {
+
+    /*
+    SamplerState TexSampler {
+        Filter = ANISOTROPIC;
+        AddressU = Wrap;
+        AddressV = Wrap;
+        MaxAnisotropy = 16;
+    };
+    */
+
+    stream int pos : POSITION;
+    stream float3 normal : NORMAL;
+    stream float4 col : COLOR;
+    
+    override float4 Compute() {
+        return streams.col;
+    }
+
+};

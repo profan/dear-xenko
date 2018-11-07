@@ -1,0 +1,20 @@
+!MaterialAsset
+Id: 3b701044-e45d-4ce5-8d7d-117583f1aaf0
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Attributes:
+    Surface: !MaterialNormalMapFeature
+        Enabled: false
+        NormalMap: !ComputeShaderClassColor
+            MixinReference: 
+            Generics: {}
+            CompositionNodes: {}
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeShaderClassColor
+            MixinReference: ChunkShader
+            Generics: {}
+            CompositionNodes: {}
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers: {}

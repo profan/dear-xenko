@@ -1,0 +1,63 @@
+!GameSettingsAsset
+Id: 1a42bbaf-37d1-4b9d-ab45-9b439b98de2f
+SerializedVersion: {Xenko: 2.1.0.3}
+Tags: []
+DefaultScene: dfef3730-0505-4dd9-aa3a-4edd1cfc8289:MainScene
+GraphicsCompositor: 8668ad13-de73-43d9-baad-3819917ee27f:GraphicsCompositor
+Defaults:
+    - !Xenko.Audio.AudioEngineSettings,Xenko.Audio
+        HrtfSupport: false
+    - !Xenko.Assets.EditorSettings,Xenko.Assets
+        RenderingMode: HDR
+    - !Xenko.Navigation.NavigationSettings,Xenko.Navigation
+        EnableDynamicNavigationMesh: false
+        IncludedCollisionGroups: AllFilter
+        BuildSettings:
+            CellHeight: 0.2
+            CellSize: 0.3
+            TileSize: 32
+            MinRegionArea: 2
+            RegionMergeArea: 20
+            MaxEdgeLen: 12.0
+            MaxEdgeError: 1.3
+            DetailSamplingDistance: 6.0
+            MaxDetailSamplingError: 1.0
+        Groups:
+            -   Id: 73cd78a3-9bcf-44d9-88b5-01a1c8c450e6
+                Name: New group
+                AgentSettings:
+                    Height: 1.0
+                    MaxClimb: 0.25
+                    MaxSlope: {Radians: 0.7853982}
+                    Radius: 0.5
+    - !Xenko.Physics.PhysicsSettings,Xenko.Physics
+        Flags: None
+        MaxSubSteps: 1
+        FixedTimeStep: 0.0166666675
+    - !Xenko.Graphics.RenderingSettings,Xenko.Graphics
+        DefaultBackBufferWidth: 1280
+        DefaultBackBufferHeight: 720
+        AdaptBackBufferToScreen: false
+        DefaultGraphicsProfile: Level_10_0
+        ColorSpace: Linear
+        DisplayOrientation: LandscapeRight
+        PreferredGraphicsPlatform: Default
+    - !Xenko.Streaming.StreamingSettings,Xenko.Engine
+        ManagerUpdatesInterval: 0:00:00:00.0330000
+        ResourceLiveTimeout: 0:00:00:08.0000000
+    - !Xenko.Assets.Textures.TextureSettings,Xenko.Assets
+        TextureQuality: Fast
+Overrides: []
+PlatformFilters:
+    - PowerVR SGX 54[0-9]
+    - Adreno \(TM\) 2[0-9][0-9]
+    - Adreno (TM) 320
+    - Adreno (TM) 330
+    - Adreno \(TM\) 4[0-9][0-9]
+    - NVIDIA Tegra
+    - Intel(R) HD Graphics
+    - ^Mali\-4
+    - ^Mali\-T6
+    - ^Mali\-T7
+SplashScreenTexture: d26edb11-10bd-403c-b3c2-9c7fcccf25e5:XenkoDefaultSplashScreen
+SplashScreenColor: {R: 0, G: 0, B: 0, A: 255}

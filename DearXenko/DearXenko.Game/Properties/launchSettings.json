@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DearXenko.Game": {
+      "commandName": "Project",
+	  "nativeDebugging" : true
+    }
+  }
+}
