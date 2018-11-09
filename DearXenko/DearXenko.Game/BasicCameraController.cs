@@ -62,7 +62,9 @@ namespace DearXenko {
         private void DrawCameraDebug() {
 
             ImGui.Text("Camera Options");
+
             ImGui.Separator();
+
             ImGui.DragFloat("camera translation damping: ", ref camDamping, 0.01f, 0.1f, 1.0f);
             ImGui.DragFloat("camera rotation damping: ", ref camRotDamping, 0.01f, 0.1f, 1.0f);
             ImGui.DragFloat("scale zoom divisor", ref scaleZoomFactor);
@@ -70,6 +72,12 @@ namespace DearXenko {
             ImGui.DragFloat("pan speed", ref mousePanSpeed);
             ImGui.DragFloat("min height", ref cameraMinY);
             ImGui.DragFloat("max height", ref cameraMaxY);
+
+            ImGui.Separator();
+
+            ImGui.DragFloat3("keyboard move speed", ref keyboardMovementSpeed);
+            ImGui.DragFloat2("keyboard rotation speed", ref keyboardRotationSpeed);
+            ImGui.DragFloat2("mouse rotation speed", ref mouseRotationSpeed);
 
             if (ImGui.Button((scaleZoom ? "scale pan by zoom: true" : "scale pan by zoom: false"))) {
                 scaleZoom = !scaleZoom;

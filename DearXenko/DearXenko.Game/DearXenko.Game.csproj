@@ -13,7 +13,21 @@
     <None Remove="cimgui.dll" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="ImGui.NET" Version="1.65.0-beta1" />
+    <Content Include="C:\Users\profan\Desktop\ImGui.NET\deps\cimgui\linux-x64\cimgui.so" Link="ImguiNET\cimgui.so">
+      <PackagePath>runtimes/linux-x64/native</PackagePath>
+      <Pack>true</Pack>
+    </Content>
+    <Content Include="C:\Users\profan\Desktop\ImGui.NET\deps\cimgui\osx-x64\cimgui.dylib" Link="ImguiNET\cimgui.dylib">
+      <PackagePath>runtimes/osx-x64/native</PackagePath>
+      <Pack>true</Pack>
+    </Content>
+    <Content Include="C:\Users\profan\Desktop\ImGui.NET\deps\cimgui\win-x64\cimgui.dll" Link="ImguiNET\cimgui.dll">
+      <PackagePath>runtimes/win-x64/native</PackagePath>
+      <Pack>true</Pack>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="4.5.2" />
     <PackageReference Include="Xenko" Version="3.0.0.6">
       <PrivateAssets>contentfiles;analyzers</PrivateAssets>
     </PackageReference>

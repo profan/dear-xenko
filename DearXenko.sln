@@ -1,3 +1,4 @@
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
@@ -27,12 +28,15 @@ Global
 		Testing|Windows = Testing|Windows
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{837A189B-347E-4C6D-8768-04BC7535C554}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
-		{837A189B-347E-4C6D-8768-04BC7535C554}.AppStore|Any CPU.Build.0 = Release|Any CPU
-		{837A189B-347E-4C6D-8768-04BC7535C554}.AppStore|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{837A189B-347E-4C6D-8768-04BC7535C554}.AppStore|Mixed Platforms.Build.0 = Release|Any CPU
-		{837A189B-347E-4C6D-8768-04BC7535C554}.AppStore|Windows.ActiveCfg = Release|Any CPU
-		{837A189B-347E-4C6D-8768-04BC7535C554}.AppStore|Windows.Build.0 = Release|Any CPU
+		{837A189B-347E-4C6D-8768-04BC7535C554}.AppStore|Any CPU.ActiveCfg = AppStore|Any CPU
+		{837A189B-347E-4C6D-8768-04BC7535C554}.AppStore|Any CPU.Build.0 = AppStore|Any CPU
+		{837A189B-347E-4C6D-8768-04BC7535C554}.AppStore|Any CPU.Deploy.0 = AppStore|Any CPU
+		{837A189B-347E-4C6D-8768-04BC7535C554}.AppStore|Mixed Platforms.ActiveCfg = AppStore|Any CPU
+		{837A189B-347E-4C6D-8768-04BC7535C554}.AppStore|Mixed Platforms.Build.0 = AppStore|Any CPU
+		{837A189B-347E-4C6D-8768-04BC7535C554}.AppStore|Mixed Platforms.Deploy.0 = AppStore|Any CPU
+		{837A189B-347E-4C6D-8768-04BC7535C554}.AppStore|Windows.ActiveCfg = AppStore|Any CPU
+		{837A189B-347E-4C6D-8768-04BC7535C554}.AppStore|Windows.Build.0 = AppStore|Any CPU
+		{837A189B-347E-4C6D-8768-04BC7535C554}.AppStore|Windows.Deploy.0 = AppStore|Any CPU
 		{837A189B-347E-4C6D-8768-04BC7535C554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{837A189B-347E-4C6D-8768-04BC7535C554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{837A189B-347E-4C6D-8768-04BC7535C554}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
@@ -51,18 +55,21 @@ Global
 		{837A189B-347E-4C6D-8768-04BC7535C554}.Release|Windows.ActiveCfg = Release|Any CPU
 		{837A189B-347E-4C6D-8768-04BC7535C554}.Release|Windows.Build.0 = Release|Any CPU
 		{837A189B-347E-4C6D-8768-04BC7535C554}.Release|Windows.Deploy.0 = Release|Any CPU
-		{837A189B-347E-4C6D-8768-04BC7535C554}.Testing|Any CPU.ActiveCfg = Release|Any CPU
-		{837A189B-347E-4C6D-8768-04BC7535C554}.Testing|Any CPU.Build.0 = Release|Any CPU
-		{837A189B-347E-4C6D-8768-04BC7535C554}.Testing|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{837A189B-347E-4C6D-8768-04BC7535C554}.Testing|Mixed Platforms.Build.0 = Release|Any CPU
-		{837A189B-347E-4C6D-8768-04BC7535C554}.Testing|Windows.ActiveCfg = Release|Any CPU
-		{837A189B-347E-4C6D-8768-04BC7535C554}.Testing|Windows.Build.0 = Release|Any CPU
-		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
-		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.AppStore|Any CPU.Build.0 = Release|Any CPU
-		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.AppStore|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.AppStore|Mixed Platforms.Build.0 = Release|Any CPU
-		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.AppStore|Windows.ActiveCfg = Release|Any CPU
-		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.AppStore|Windows.Build.0 = Release|Any CPU
+		{837A189B-347E-4C6D-8768-04BC7535C554}.Testing|Any CPU.ActiveCfg = Testing|Any CPU
+		{837A189B-347E-4C6D-8768-04BC7535C554}.Testing|Any CPU.Build.0 = Testing|Any CPU
+		{837A189B-347E-4C6D-8768-04BC7535C554}.Testing|Any CPU.Deploy.0 = Testing|Any CPU
+		{837A189B-347E-4C6D-8768-04BC7535C554}.Testing|Mixed Platforms.ActiveCfg = Testing|Any CPU
+		{837A189B-347E-4C6D-8768-04BC7535C554}.Testing|Mixed Platforms.Build.0 = Testing|Any CPU
+		{837A189B-347E-4C6D-8768-04BC7535C554}.Testing|Mixed Platforms.Deploy.0 = Testing|Any CPU
+		{837A189B-347E-4C6D-8768-04BC7535C554}.Testing|Windows.ActiveCfg = Testing|Any CPU
+		{837A189B-347E-4C6D-8768-04BC7535C554}.Testing|Windows.Build.0 = Testing|Any CPU
+		{837A189B-347E-4C6D-8768-04BC7535C554}.Testing|Windows.Deploy.0 = Testing|Any CPU
+		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.AppStore|Any CPU.ActiveCfg = AppStore|Any CPU
+		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.AppStore|Any CPU.Build.0 = AppStore|Any CPU
+		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.AppStore|Mixed Platforms.ActiveCfg = AppStore|Any CPU
+		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.AppStore|Mixed Platforms.Build.0 = AppStore|Any CPU
+		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.AppStore|Windows.ActiveCfg = AppStore|Any CPU
+		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.AppStore|Windows.Build.0 = AppStore|Any CPU
 		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -75,12 +82,12 @@ Global
 		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.Release|Windows.ActiveCfg = Release|Any CPU
 		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.Release|Windows.Build.0 = Release|Any CPU
-		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.Testing|Any CPU.ActiveCfg = Release|Any CPU
-		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.Testing|Any CPU.Build.0 = Release|Any CPU
-		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.Testing|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.Testing|Mixed Platforms.Build.0 = Release|Any CPU
-		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.Testing|Windows.ActiveCfg = Release|Any CPU
-		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.Testing|Windows.Build.0 = Release|Any CPU
+		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.Testing|Any CPU.ActiveCfg = Testing|Any CPU
+		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.Testing|Any CPU.Build.0 = Testing|Any CPU
+		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.Testing|Mixed Platforms.ActiveCfg = Testing|Any CPU
+		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.Testing|Mixed Platforms.Build.0 = Testing|Any CPU
+		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.Testing|Windows.ActiveCfg = Testing|Any CPU
+		{B5C78649-A420-4417-AAE0-5DCBD9D01ACB}.Testing|Windows.Build.0 = Testing|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

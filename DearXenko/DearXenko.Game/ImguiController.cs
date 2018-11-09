@@ -207,12 +207,12 @@ namespace DearXenko {
             ImGuiIOPtr io = ImGui.GetIO();
 
             var surfaceSize = input.Mouse.SurfaceSize;
-            io.DisplaySize = new System.Numerics.Vector2(surfaceSize.X, surfaceSize.Y);
-            io.DisplayFramebufferScale = new System.Numerics.Vector2(1.0f, 1.0f);
+            io.DisplaySize = new Vector2(surfaceSize.X, surfaceSize.Y);
+            io.DisplayFramebufferScale = new Vector2(1.0f, 1.0f);
             io.DeltaTime = (float)gameTime.TimePerFrame.TotalSeconds;
 
             var mousePos = input.AbsoluteMousePosition;
-            io.MousePos = new System.Numerics.Vector2(mousePos.X, mousePos.Y);
+            io.MousePos = new Vector2(mousePos.X, mousePos.Y);
 
             if (io.WantTextInput) {
                 input.TextInput.EnabledTextInput();

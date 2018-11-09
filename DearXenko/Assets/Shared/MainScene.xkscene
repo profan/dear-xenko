@@ -23,8 +23,8 @@ Hierarchy:
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
-                    3c57e0475b49921544ee45d148427d73: !DearXenko.WorldRenderer,DearXenko.Game
-                        Id: 379a26fd-6902-44cc-9638-4aabc542d02f
+                    896a65444575492fc2801c6dc7bd6103: !DearXenko.WorldRenderer,DearXenko.Game
+                        Id: a8f23fa5-689c-4bf8-95b0-45d8a0d6df10
         -   Entity:
                 Id: 60f389c6-7a84-42f4-8d59-a60e8bded78a
                 Name: Ground
